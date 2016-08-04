@@ -1,3 +1,6 @@
+require_relative 'practice'
+
+
 describe "#word_count" do
   it "returns number of words in a string" do
     string = "laughter, it's free"
@@ -20,15 +23,15 @@ describe "#average_word_length" do
   end
 end
 
-describe "#palindrome?" do
-  it "returns true if string is a palindrome" do
-    expect("racecar".palindrome?).to be true
-  end
+# describe "#palindrome?" do
+#   it "returns true if string is a palindrome" do
+#     expect("racecar".palindrome?).to be true
+#   end
 
-  it "returns false if string is not a palindrome" do
-    expect("poochie".palindrome?).to be false
-  end
-end
+#   it "returns false if string is not a palindrome" do
+#     expect("poochie".palindrome?).to be false
+#   end
+# end
 
 describe "#vowels" do
   it "returns array of words with vowels" do
